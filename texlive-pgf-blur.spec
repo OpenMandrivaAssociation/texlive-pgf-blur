@@ -51,3 +51,12 @@ PSTricks.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.01-2
++ Revision: 813697
+- Update to latest release.
+- Import texlive-pgf-blur
+- Import texlive-pgf-blur
+
