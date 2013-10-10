@@ -1,12 +1,12 @@
-# revision 26134
+# revision 31693
 # category Package
 # catalog-ctan /graphics/pgf/contrib/pgf-blur
-# catalog-date 2012-04-24 16:17:04 +0200
+# catalog-date 2013-09-19 00:14:31 +0200
 # catalog-license lppl
 # catalog-version 1.01
 Name:		texlive-pgf-blur
 Version:	1.01
-Release:	2
+Release:	3
 Summary:	PGF/TikZ package for "blurred" shadows
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-blur
@@ -20,7 +20,8 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The package adds blurred/faded/fuzzy shadows to TikZ/PGF
+=======
+The package adds blurred/faded/fuzzy shadows to PGF/TikZ
 pictures. It is configured as a TikZ/PGF library module. The
 method is similar to that of the author's pst-blur package for
 PSTricks.
@@ -51,12 +52,3 @@ PSTricks.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.01-2
-+ Revision: 813697
-- Update to latest release.
-- Import texlive-pgf-blur
-- Import texlive-pgf-blur
-
