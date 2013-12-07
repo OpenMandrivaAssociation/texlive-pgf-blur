@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-pgf-blur
 Version:	1.01
-Release:	3
+Release:	4
 Summary:	PGF/TikZ package for "blurred" shadows
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-blur
