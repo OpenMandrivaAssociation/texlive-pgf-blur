@@ -3,7 +3,7 @@ Version:	54512
 Release:	2
 Summary:	PGF/TikZ package for "blurred" shadows
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-blur
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-blur
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pgf-blur.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pgf-blur.doc.r%{version}.tar.xz
